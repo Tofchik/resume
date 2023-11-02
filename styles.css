@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.5em;
+    background: rgba(102, 86, 67, 0.9);
+    color: rgba(208, 234, 115, 0.915);
+    
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(1, 1, 1, 0.716);
+    font-size: 15px;
+    }
+
+.info-text h4 {
+    color: rgb(201, 216, 156);
+    font-size: 18px;
+}
+
+    
+
+
+.card1 h2 {
+    color: rgba(99, 87, 69)
+    
+}
+
+.card2 h2 {
+    color: rgb(64, 42, 8);
+}
+
+.card3 h2 {
+    color: rgb(201, 216, 156);
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+
+    border-radius: 20px;
+    color: rgb(5, 5, 3);
+}
+
+.card1 {
+    background:rgb(197, 203, 125);
+    
+    
+}
+
+.card2 {
+    background:rgb(197, 203, 125);
+}
+
+.card3 {
+    background: transparent;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 10px 5px 5px rgba(11, 50, 20, 0.25);
+    height: 170px;
+}
+
+
+
+.card h2 {
+    margin: 10px;
+}
+
+a {
+   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 16.5px;
+    
+}
+
+
+
+a:hover {
+    color: rgb(234, 157, 16);
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: underline;
+}
+
+
+a:active {
+    color: rgb(220, 41, 41);
+}
+
+
+.btn {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    
+}
+
+.btn:hover {
+   
+    opacity: 0.6;
+}
+
+.card table {
+    width: 100%;
+}
+
+.card td {
+    /* border: 2px solid rgb(110, 137, 131); */
+    font-style: italic;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.card td:nth-child(2), .card td:nth-child(3)
+ {
+    color: rgba(0, 0, 0, 0.607);    
+}
+
+/* .card tr:nth-child(5) {
+    color: rgb(210, 226, 155);
+} */
+
+.card td:hover {
+   background: rgb(116, 128, 121);
+}
+
+
+
+
+.card li {
+    color: rgb(24, 43, 43);
+    margin: 10px;
+    font-weight: bold;
+    border-bottom: 1px dashed gray;  
+    padding-bottom: 5px; 
+}
+
+
+
+.card form {
+    font-weight: bold;
+    color: rgba(25, 28, 29, 0.638);
+}
+
+  
+
+
+.card3 h2 {
+    text-align: center;
+}
+
+.card3 label {
+    display: block;
+    font-size: 15px;
+    color: rgba(227, 113, 113, 0.916);
+
+}
+
+
+.card input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #b6b6b6;
+    padding: 10px 0 8px;
+    margin-bottom: 40px;
+    font-family: inherit;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    /* width: calc(50% - 20px); */
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    padding-left: 40px;
+}
+
+@media (max-width: 500px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .form-row{
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+::-webkit-input-placeholder { 
+    color: #b9babd;
+}
+

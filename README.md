@@ -2,4 +2,4 @@
 
 ## Результат Вы можете посмотреть тут
 
-[Моя первая работа в HTML & CSS] (https://tofchik.github.io/resume/)
+[Моя первая работа в HTML & CSS](https://tofchik.github.io/resume/)
